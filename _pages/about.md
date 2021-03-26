@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="Advanced Research Computing, Virginia Tech">https://www.arc.vt.edu</a>. #Address. Contacts. Moto. Etc.
+description: <a href="https://www.arc.vt.edu">Advanced Research Computing, Virginia Tech</a>. #Address. Contacts. Moto. Etc.
 
 profile:
   align: right

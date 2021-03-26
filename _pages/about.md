@@ -19,4 +19,12 @@ social: true  # includes social icons at the bottom of the page
 
 I am a computer and math nerd currently working as Computational Scientist with Advanced Research Computing at Virginia Tech. My research is in development of theoretical and computational frameworks to address a number of data analytics problems, such as how to incorporate and balance data and expert opinion into decision-making, and how to estimate model parameters, including high- or even infinite-dimensional quantities, from noisy data. Areas of interest include: Bayesian Inference, Parameter Estimation, Optimal Control, Uncertainty Quantification, Numerical Analysis, Scientific Computing.
 
-Prior to moving into academia, I spent seven years in the public and private sectors doing transportation modeling for planning and evacuation modeling; hurricane, pandemic, and other emergency preparedness; and project management.
+Prior to coming back to academia, I spent seven years in the public and private sectors doing transportation modeling for planning and evacuation modeling; hurricane, pandemic, and other emergency preparedness; and project management.
+
+<!--
+## education
+- Ph.D., Math, 2018, Virginia Tech
+- M.S., Math, 2004, Virginia Tech
+- B.S., Physics, 2004, Virginia Tech
+- B.S., Math, 2002, Virginia Tech
+-->

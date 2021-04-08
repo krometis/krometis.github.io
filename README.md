@@ -21,7 +21,7 @@ git checkout master
 
 #Copy contents of _site into root of website
 #May also need to remove files that were removed, etc
-cp -r _site/ .
+cp -r _site/* .
 
 #Add, commit, push changes (to the source branch)
 git add -A

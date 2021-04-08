@@ -17,9 +17,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a computer and math nerd currently working as Computational Scientist with Advanced Research Computing at Virginia Tech. My research is in development of theoretical and computational frameworks to address a number of data analytics problems, such as how to incorporate and balance data and expert opinion into decision-making, and how to estimate model parameters, including high- or even infinite-dimensional quantities, from noisy data. Areas of interest include: Bayesian Inference, Parameter Estimation, Optimal Control, Uncertainty Quantification, Numerical Analysis, Scientific Computing.
+I am a computer and math geek currently working as Computational Scientist with Advanced Research Computing at Virginia Tech. My research is in development of theoretical and computational frameworks to address a number of data analytics problems, such as how to incorporate and balance data and expert opinion into decision-making, and how to estimate model parameters, including high- or even infinite-dimensional quantities, from noisy data. Areas of interest include: Bayesian Inference, Parameter Estimation, Optimal Control, Uncertainty Quantification, Numerical Analysis, Scientific Computing, and Machine Learning.
 
-Prior to coming back to academia, I spent seven years in the public and private sectors doing transportation modeling for planning and evacuation modeling; hurricane, pandemic, and other emergency preparedness; and project management.
+Prior to coming back to academia, I spent seven years in the public and private sectors doing transportation modeling for planning and evacuation applications; hurricane, pandemic, and other emergency preparedness; and project management.
 
 <!--
 ## education

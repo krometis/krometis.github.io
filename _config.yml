@@ -45,14 +45,14 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: krometis # your GitHub user name
 twitter_username: # your Twitter handle
 linkedin_username: justin-krometis-b54b40205 # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
+scholar_userid: HGbCMrgAAAAJ # your Google Scholar ID
 orcid_id: 0000-0002-2862-112X # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
-work_url: https://www.arc.vt.edu # work page URL
+work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 

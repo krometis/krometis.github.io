@@ -271,6 +271,7 @@ GEM
 
 PLATFORMS
   universal-darwin-18
+  x86_64-linux
 
 DEPENDENCIES
   github-pages
@@ -284,4 +285,4 @@ DEPENDENCIES
   unicode_utils
 
 BUNDLED WITH
-   2.2.15
+   2.2.33

@@ -7,10 +7,9 @@ description: #<a href="https://www.research.vt.edu/institutes/virginia-tech-nati
 profile:
   align: right
   image: prof_pic.jpg
-<!--  address: >
+  address: >
     <p>1311 Research Center Dr, RM 2016</p>
     <p>Blacksburg, VA 24061</p>
--->
 
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"

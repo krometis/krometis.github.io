@@ -28,3 +28,23 @@ git add -A
 git commit -m 'master: updated X, Y, Z'
 git push origin master
 ```
+
+To set up (on Ubuntu via [WSL](https://docs.microsoft.com/windows/wsl/)):
+```
+#Jekyll instructions say not to install centrally, so ran 
+#these and added to .bash_profile
+export GEM_HOME="$HOME/gems"
+export PATH="$GEM_HOME/bin:$PATH"
+
+#Had to do this once to get apt-get to find packages
+sudo apt-get update
+
+#Install dependencies
+sudo apt-get install ruby-full build-essential zlib1g-dev
+
+#Add Jekyll
+gem install jekyll bundler
+
+#Add missing gems
+bundle install
+```

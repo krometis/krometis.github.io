@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 I am a computer and math geek currently working as Research Assistant Professor
 with the [National Security
 Institute](https://www.research.vt.edu/institutes/virginia-tech-national-security-institute.html)
-at Virginia Tech. My research is in development of theoretical and
+at Virginia Tech. I also hold an Adjunct Research Assitant Professor position in the [Math Department](https://math.vt.edu). My research is in development of theoretical and
 computational frameworks to address data analytics problems, such
 as how to incorporate and balance data and expert opinion into decision-making,
 and how to estimate model parameters, including high- or even

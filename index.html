@@ -23,7 +23,7 @@
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
 
 <!-- Code Syntax Highlighting -->
-<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+<link rel="stylesheet" href="https://raw.githubusercontent.com/jwarby/jekyll-pygments-themes/master/github.css" />
 
 <!-- Styles -->
 
@@ -184,7 +184,7 @@
     
 
     <div class="clearfix">
-      <p>I am a computer and math geek currently working as Research Assistant Professor
+      <p>I am a Research Assistant Professor
 with the <a href="https://www.research.vt.edu/institutes/virginia-tech-national-security-institute.html">National Security
 Institute</a>
 at Virginia Tech. I also hold an Adjunct Research Assistant Professor position in the <a href="https://math.vt.edu">Math Department</a>. My research is in development of theoretical and
@@ -192,7 +192,7 @@ computational frameworks to address data analytics problems, such
 as how to incorporate and balance data and expert opinion into decision-making,
 and how to estimate model parameters, including high- or even
 infinite-dimensional quantities, from noisy data. Areas of interest include:
-Statistical Inverse Problems, High-Performance Computing, Parameter Estimation, Uncertainty Quantification, Artificial Intelligence/Machine Learning (AI/ML), Reinforcement Learning, Experimental Design, and Test and Evaluation of AI/ML systems.</p>
+Statistical Inverse Problems, Uncertainty Quantification, Experimental Design, High-Performance Computing, Artificial Intelligence/Machine Learning (AI/ML), and Reinforcement Learning.</p>
 
 <p>Prior to joining VTNSI, I spent ten years supporting high-performance computing at Virginia Tech as a Computational Scientist with <a href="https://arc.vt.edu">Advanced Research Computing</a>. Prior to that, I spent seven years in the public and private sectors doing transportation modeling for planning and evacuation applications; hurricane, pandemic, and other emergency preparedness; and project management.</p>
 
@@ -312,14 +312,14 @@ Statistical Inverse Problems, High-Performance Computing, Parameter Estimation, 
   <div class="col-sm-2 abbr">
   
     
-    <abbr class="badge">JCP</abbr>
+    <abbr class="badge">IP</abbr>
     
   
   </div>
 
-  <div id="borggaard2019particle" class="col-sm-8">
+  <div id="borggaard2023statistical" class="col-sm-8">
     
-      <div class="title">GPU-Accelerated Particle Methods for Evaluation of Sparse Observations for Inverse Problems Constrained by Diffusion PDEs</div>
+      <div class="title">A statistical framework for domain shape estimation in Stokes flows</div>
       <div class="author">
         
           
@@ -346,7 +346,7 @@ Statistical Inverse Problems, High-Performance Computing, Parameter Estimation, 
             
               
                 
-                  Glatt-Holtz, Nathan,
+                  Glatt-Holtz, Nathan E.,
                 
               
             
@@ -369,21 +369,23 @@ Statistical Inverse Problems, High-Performance Computing, Parameter Estimation, 
 
       <div class="periodical">
       
-        <em>Journal of Computational Physics</em>
+        <em>Inverse Problems</em>
       
       
-        2019
+        2023
       
       </div>
     
 
     <div class="links">
     
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
     
-      <a href="http://arxiv.org/abs/1808.10580" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>
+    
+      <a href="http://arxiv.org/abs/2212.03365" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>
     
     
-      <a href="https://doi.org/10.1016/j.jcp.2019.04.034" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+      <a href="https://dx.doi.org/10.1088/1361-6420/acdd8e" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
     
     
     
@@ -395,6 +397,10 @@ Statistical Inverse Problems, High-Performance Computing, Parameter Estimation, 
     </div>
 
     <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>We develop and implement a Bayesian approach for the estimation of the shape of a two dimensional annular domain enclosing a Stokes flow from sparse and noisy observations of the enclosed fluid. Our setup includes the case of direct observations of the flow field as well as the measurement of concentrations of a solute passively advected by and diffusing within the flow. Adopting a statistical approach provides estimates of uncertainty in the shape due both to the non-invertibility of the forward map and to error in the measurements. When the shape represents a design problem of attempting to match desired target outcomes, this ‘uncertainty’ can be interpreted as identifying remaining degrees of freedom available to the designer. We demonstrate the viability of our framework on three concrete test problems. These problems illustrate the promise of our framework for applications while providing a collection of test cases for recently developed Markov chain Monte Carlo algorithms designed to resolve infinite-dimensional statistical quantities.</p>
+    </div>
     
   </div>
 </div>
@@ -494,14 +500,14 @@ Statistical Inverse Problems, High-Performance Computing, Parameter Estimation, 
   <div class="col-sm-2 abbr">
   
     
-    <abbr class="badge">IP</abbr>
+    <abbr class="badge">JCP</abbr>
     
   
   </div>
 
-  <div id="borggaard2023statistical" class="col-sm-8">
+  <div id="borggaard2019particle" class="col-sm-8">
     
-      <div class="title">A statistical framework for domain shape estimation in Stokes flows</div>
+      <div class="title">GPU-Accelerated Particle Methods for Evaluation of Sparse Observations for Inverse Problems Constrained by Diffusion PDEs</div>
       <div class="author">
         
           
@@ -528,7 +534,7 @@ Statistical Inverse Problems, High-Performance Computing, Parameter Estimation, 
             
               
                 
-                  Glatt-Holtz, Nathan E.,
+                  Glatt-Holtz, Nathan,
                 
               
             
@@ -551,23 +557,21 @@ Statistical Inverse Problems, High-Performance Computing, Parameter Estimation, 
 
       <div class="periodical">
       
-        <em>Inverse Problems</em>
+        <em>Journal of Computational Physics</em>
       
       
-        2023
+        2019
       
       </div>
     
 
     <div class="links">
     
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+      <a href="http://arxiv.org/abs/1808.10580" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>
     
     
-      <a href="http://arxiv.org/abs/2212.03365" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>
-    
-    
-      <a href="https://dx.doi.org/10.1088/1361-6420/acdd8e" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+      <a href="https://doi.org/10.1016/j.jcp.2019.04.034" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
     
     
     
@@ -579,10 +583,6 @@ Statistical Inverse Problems, High-Performance Computing, Parameter Estimation, 
     </div>
 
     <!-- Hidden abstract block -->
-    
-    <div class="abstract hidden">
-      <p>We develop and implement a Bayesian approach for the estimation of the shape of a two dimensional annular domain enclosing a Stokes flow from sparse and noisy observations of the enclosed fluid. Our setup includes the case of direct observations of the flow field as well as the measurement of concentrations of a solute passively advected by and diffusing within the flow. Adopting a statistical approach provides estimates of uncertainty in the shape due both to the non-invertibility of the forward map and to error in the measurements. When the shape represents a design problem of attempting to match desired target outcomes, this ‘uncertainty’ can be interpreted as identifying remaining degrees of freedom available to the designer. We demonstrate the viability of our framework on three concrete test problems. These problems illustrate the promise of our framework for applications while providing a collection of test cases for recently developed Markov chain Monte Carlo algorithms designed to resolve infinite-dimensional statistical quantities.</p>
-    </div>
     
   </div>
 </div>

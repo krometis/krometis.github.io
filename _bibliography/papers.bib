@@ -2,6 +2,43 @@
 ---
 
 
+@article{glatt-holtz2024parallel,
+  abbr={TMA},
+	title = {Parallel {MCMC} algorithms: theoretical foundations, algorithm design, case studies},
+	volume = {8},
+	copyright = {All rights reserved},
+	issn = {2398-4945},
+	shorttitle = {Parallel {MCMC} algorithms},
+	url = {https://doi.org/10.1093/imatrm/tnae004},
+	html = {https://doi.org/10.1093/imatrm/tnae004},
+	doi = {10.1093/imatrm/tnae004},
+  arxiv = {2209.04750},
+	abstract = {Parallel Markov Chain Monte Carlo (pMCMC) algorithms generate clouds of proposals at each step to efficiently resolve a target probability distribution \${\textbackslash}mu \$. We build a rigorous foundational framework for pMCMC algorithms that situates these methods within a unified ‘extended phase space’ measure-theoretic formalism. Drawing on our recent work that provides a comprehensive theory for reversible single-proposal methods, we herein derive general criteria for multiproposal acceptance mechanisms that yield ergodic chains on general state spaces. Our formulation encompasses a variety of methodologies, including proposal cloud resampling and Hamiltonian methods, while providing a basis for the derivation of novel algorithms. In particular, we obtain a top-down picture for a class of methods arising from ‘conditionally independent’ proposal structures. As an immediate application of this formalism, we identify several new algorithms including a multiproposal version of the popular preconditioned Crank–Nicolson (pCN) sampler suitable for high- and infinite-dimensional target measures that are absolutely continuous with respect to a Gaussian base measure. To supplement the aforementioned theoretical results, we carry out a selection of numerical case studies that evaluate the efficacy of these novel algorithms. First, noting that the true potential of pMCMC algorithms arises from their natural parallelizability and the ease with which they map to modern high-performance computing architectures, we provide a limited parallelization study using TensorFlow and a graphics processing unit to scale pMCMC algorithms that leverage as many as 100k proposals at each step. Second, we use our multiproposal pCN algorithm (mpCN) to resolve a selection of problems in Bayesian statistical inversion for partial differential equations motivated by fluid measurement. These examples provide preliminary evidence of the efficacy of mpCN for high-dimensional target distributions featuring complex geometries and multimodal structures.},
+	number = {2},
+	urldate = {2024-09-09},
+	journal = {Transactions of Mathematics and Its Applications},
+	author = {Glatt-Holtz, Nathan E and Holbrook, Andrew J and Krometis, Justin A and Mondaini, Cecilia F},
+	month = dec,
+	year = {2024},
+	pages = {tnae004},
+	file = {Full Text PDF:C\:\\Users\\jkrometi\\Zotero\\storage\\HTADDNLC\\Glatt-Holtz et al. - 2024 - Parallel MCMC algorithms theoretical foundations,.pdf:application/pdf},
+}
+
+
+@article{risher2024maximizing,
+  abbr={NEJ},
+	title = {Maximizing the {Use} of {Data} to {Make} {Winning} {Decisions} in the {Face} of {Finite} {Resources}},
+	volume = {136},
+	copyright = {All rights reserved},
+	abstract = {Data collected across the acquisition life cycle, under different conditions, are not always used to maximize the knowledge about the operational performance of Department of Defense (DoD) systems. In the case of an acquisition process intended to deliver warfighting capabilities to address critical operational gaps, all data can and should improve knowledge about the system and must be leveraged to help authorities make the most informed decisions. Care must be given to how such data are used though to avoid their misuse potentially leading to incorrect conclusions and misinformed decisions. This article describes such challenges and introduces key analytical concepts based on math, science, statistics, and software engineering intended to maximize the information extracted from all data collected throughout the acquisition process. This article demonstrates the utility of those concepts on an example focused on the test and evaluation of the operational availability of a notional torpedo.},
+	number = {1-2},
+	journal = {Naval Engineers Journal},
+	author = {Risher, Kyle and Wolodkin, Daniel and Krometis, Justin and Sieck, Victoria and Freeman, Laura and Werner, Jeremy and Hobson, Sandra},
+	year = {2024},
+	pages = {111--120},
+  html = {https://www.navalengineers.org/Publications/Naval-Engineers-Journal},
+}
+
 @article{glatt-holtz2023accept,
   selected = {true},
   abbr={AAP},
@@ -231,26 +268,6 @@
   url = {https://doi.org/10.3390/make4030031},
   html = {https://doi.org/10.3390/make4030031}
 }
-
-@article{glatt-holtz2022parallel,
-  title = {Parallel {{MCMC Algorithms}}: {{Theoretical Foundations}}, {{Algorithm Design}}, {{Case Studies}}},
-  shorttitle = {Parallel {{MCMC Algorithms}}},
-  author = {{Glatt-Holtz}, Nathan E. and Holbrook, Andrew J. and Krometis, Justin A. and Mondaini, Cecilia F.},
-  year = {2022},
-  month = sep,
-  number = {arXiv:2209.04750},
-  eprint = {2209.04750},
-  eprinttype = {arxiv},
-  primaryclass = {math, stat},
-  publisher = {{arXiv}},
-  doi = {10.48550/arXiv.2209.04750},
-	url = {https://arxiv.org/abs/2209.04750},
-  abstract = {Parallel Markov Chain Monte Carlo (pMCMC) algorithms generate clouds of proposals at each step to efficiently resolve a target probability distribution. We build a rigorous foundational framework for pMCMC algorithms that situates these methods within a unified `extended phase space' measure-theoretic formalism. Drawing on our recent work that provides a comprehensive theory for reversible single proposal methods, we herein derive general criteria for multiproposal acceptance mechanisms which yield unbiased chains on general state spaces. Our formulation encompasses a variety of methodologies, including proposal cloud resampling and Hamiltonian methods, while providing a basis for the derivation of novel algorithms. In particular, we obtain a top-down picture for a class of methods arising from `conditionally independent' proposal structures. As an immediate application, we identify several new algorithms including a multiproposal version of the popular preconditioned Crank-Nicolson (pCN) sampler suitable for high- and infinite-dimensional target measures which are absolutely continuous with respect to a Gaussian base measure. To supplement our theoretical results, we carry out a selection of numerical case studies that evaluate the efficacy of these novel algorithms. First, noting that the true potential of pMCMC algorithms arises from their natural parallelizability, we provide a limited parallelization study using TensorFlow and a graphics processing unit to scale pMCMC algorithms that leverage as many as 100k proposals at each step. Second, we use our multiproposal pCN algorithm (mpCN) to resolve a selection of problems in Bayesian statistical inversion for partial differential equations motivated by fluid measurement. These examples provide preliminary evidence of the efficacy of mpCN for high-dimensional target distributions featuring complex geometries and multimodal structures.},
-  archiveprefix = {arXiv},
-  keywords = {62D05; 60J22; 65C05; 65Y05,Mathematics - Probability,Mathematics - Statistics Theory,Statistics - Computation},
-  arxiv = {2209.04750},
-}
-
 
 @article{paskett2024tale,
 	title = {A tale of two faults: {Statistical} reconstruction of the 1820 {Flores} {Sea} earthquake using tsunami observations alone},

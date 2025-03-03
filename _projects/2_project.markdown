@@ -35,3 +35,11 @@ the highly theoretical (long proof-based paper).
 <div class="caption">
    Left: An example solution concentration. Middle: Simulated solute particle movement. Right: A selection of correlation plots from an example posterior measure.
 </div>
+
+<strong>Relevant Publications:</strong>
+<ul>
+<li>Glatt-Holtz, Nathan E, Andrew J Holbrook, Justin A Krometis, and Cecilia F Mondaini. “Parallel MCMC Algorithms: Theoretical Foundations, Algorithm Design, Case Studies.” Transactions of Mathematics and Its Applications 8, no. 2 (December 1, 2024): tnae004. <a href="https://doi.org/10.1093/imatrm/tnae004">https://doi.org/10.1093/imatrm/tnae004</a>.</li>
+<li>Borggaard, Jeff, Nathan Glatt-Holtz, and Justin Krometis. “On Bayesian Consistency for Flows Observed Through a Passive Scalar.” Annals of Applied Probability 30, no. 4 (2020): 1762–83. <a href="https://doi.org/10.1214/19-AAP1542">https://doi.org/10.1214/19-AAP1542</a>.</li>
+<li>Borggaard, Jeff, Nathan Glatt-Holtz, and Justin Krometis. “A Bayesian Approach to Estimating Background Flows from a Passive Scalar.” SIAM/ASA Journal on Uncertainty Quantification 8, no. 3 (January 2020): 1036–60. <a href="https://doi.org/10.1137/19M1267544">https://doi.org/10.1137/19M1267544</a>.</li>
+<li>Borggaard, Jeff, Nathan Glatt-Holtz, and Justin Krometis. “GPU-Accelerated Particle Methods for Evaluation of Sparse Observations for Inverse Problems Constrained by Diffusion PDEs.” Journal of Computational Physics, 2019. <a href="https://doi.org/10.1016/j.jcp.2019.04.034">https://doi.org/10.1016/j.jcp.2019.04.034</a>.</li>
+</ul>

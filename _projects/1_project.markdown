@@ -20,3 +20,9 @@ Most understanding of seismic history is based on instrumental data collected si
     Left: The geological setting for the 1852 earthquake and tsunami in the Banda Arc of Indonesia. Right: The prior and posterior distributions on latitude/longitude.
 </div>
 
+<strong>Relevant Publications:</strong>
+<ul>
+<li>Paskett, Taylor, Jared P Whitehead, Ron A Harris, Claire Ashcraft, Justin A Krometis, Isaac Sorensen, and Raelynn Wonnacott. “A Tale of Two Faults: Statistical Reconstruction of the 1820 Flores Sea Earthquake Using Tsunami Observations Alone.” Geophysical Journal International, February 2, 2024, ggae044. <a href="https://doi.org/10.1093/gji/ggae044">https://doi.org/10.1093/gji/ggae044</a>.</li>
+<li>Ringer, Hayden, Jared P Whitehead, Justin Krometis, Ronald A Harris, Nathan Glatt-Holtz, Spencer Giddens, Claire Ashcraft, et al. “Methodological Reconstruction of Historical Seismic Events from Anecdotal Accounts of Destructive Tsunamis: A Case Study for the Great 1852 Banda Arc Mega-Thrust Earthquake and Tsunami.” Journal of Geophysical Research, 2021. <a href="https://doi.org/10.1029/2020JB021107">https://doi.org/10.1029/2020JB021107</a>.</li>
+</ul>
+

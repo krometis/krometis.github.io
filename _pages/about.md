@@ -16,10 +16,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Research Assistant Professor
+I am a Research Associate Professor
 with the [National Security
 Institute](https://www.research.vt.edu/institutes/virginia-tech-national-security-institute.html)
-at Virginia Tech. I also hold an Adjunct Research Assistant Professor position in the [Math Department](https://math.vt.edu). My research is in development of theoretical and
+at Virginia Tech. I also hold an affiliate position in the [Math Department](https://math.vt.edu). My research is in development of theoretical and
 computational frameworks to address data analytics problems, such
 as how to incorporate and balance data and expert opinion into decision-making,
 and how to estimate model parameters, including high- or even

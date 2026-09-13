@@ -1,81 +1,46 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Flow estimation
+description: Estimating a fluid flow from solute observations
+img: /assets/img/juq_histmatrix_3x3.png
 importance: 2
-category: work
-giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The goal of this project was to estimate a fluid flow from (noisy, finite)
+observations of a solute (e.g., a pollutant or dye) advecting and diffusing in
+the fluid. Here the goal was to estimate incompressible flow $$\mathbf{v}$$
+from observations of solute concentration $$\theta$$ governed by the
+two-dimensional advection-diffusion equation:
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+$$
+\frac{\partial}{\partial t} \theta = -\mathbf{v} \cdot \nabla \theta + \kappa \Delta \theta
+$$
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+This problem was sort of a playground to test out the framework for
+Bayesian inversion for infinite-dimensional unknowns, as well as Markov Chain
+Monte Carlo methods designed for those applications, from
+perspectives ranging from the highly computational (GPU-based algorithms) to
+the highly theoretical (long proof-based paper).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/juq_bigrun_003_0067.png' | relative_url }}" alt="" title="example image"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/jcp_particle2d_00098.png' | relative_url }}" alt="" title="example image"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/juq_histmatrix_3x3.png' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+   Left: An example solution concentration. Middle: Simulated solute particle movement. Right: A selection of correlation plots from an example posterior measure.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+<strong>Relevant Publications:</strong>
+<ul>
+<li>Glatt-Holtz, Nathan E, Andrew J Holbrook, Justin A Krometis, and Cecilia F Mondaini. “Parallel MCMC Algorithms: Theoretical Foundations, Algorithm Design, Case Studies.” Transactions of Mathematics and Its Applications 8, no. 2 (December 1, 2024): tnae004. <a href="https://doi.org/10.1093/imatrm/tnae004">https://doi.org/10.1093/imatrm/tnae004</a>.</li>
+<li>Borggaard, Jeff, Nathan Glatt-Holtz, and Justin Krometis. “On Bayesian Consistency for Flows Observed Through a Passive Scalar.” Annals of Applied Probability 30, no. 4 (2020): 1762–83. <a href="https://doi.org/10.1214/19-AAP1542">https://doi.org/10.1214/19-AAP1542</a>.</li>
+<li>Borggaard, Jeff, Nathan Glatt-Holtz, and Justin Krometis. “A Bayesian Approach to Estimating Background Flows from a Passive Scalar.” SIAM/ASA Journal on Uncertainty Quantification 8, no. 3 (January 2020): 1036–60. <a href="https://doi.org/10.1137/19M1267544">https://doi.org/10.1137/19M1267544</a>.</li>
+<li>Borggaard, Jeff, Nathan Glatt-Holtz, and Justin Krometis. “GPU-Accelerated Particle Methods for Evaluation of Sparse Observations for Inverse Problems Constrained by Diffusion PDEs.” Journal of Computational Physics, 2019. <a href="https://doi.org/10.1016/j.jcp.2019.04.034">https://doi.org/10.1016/j.jcp.2019.04.034</a>.</li>
+</ul>

@@ -1,81 +1,32 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://www.wikipedia.org/
+title: Statistical shape estimation
+description: Statistical estimation of boundary shapes from fluid, solute, or acoustic information
+img: /assets/img/svsector_013_radii_quantiles.png
 importance: 3
-category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The goal of this line of research has been to estimate the shape of a domain from (noisy, finite) data describing:
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+- A fluid in the domain
+- A solute (e.g., a pollutant or dye) advecting and diffusing in the fluid
+- Acoustics (e.g., resonant frequencies) of the domain
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+While traditional methods of shape estimation have been well-established, we apply the Bayesian approach to parameter estimation. In doing so, we can incorporate prior knowledge from, e.g., theoretical properties or previous measurements, in addition to the data to characterize the shape of the associated domain. In contrast to traditional methods, the Bayesian approach also provides estimates of uncertainty, which can provide critical context to the results, such as whether there are unresolved degrees of freedom, such as when a class of shapes matches the data and prior information. These additional degrees of freedom can help dictate further data collection that might refine the unknown shape or, when applied to design problems, additional considerations (e.g., aesthetics) that might be accommodated while still matching the data.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/vortsensor_017_sample_grid_vort.png' | relative_url }}" alt="" title="vorticity matching"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/svsector_013_radii_quantiles.png' | relative_url }}" alt="" title="scalar matching"/>
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+   Left: Rotor shapes that produce similar vorticities at a set of sensor locations. Right: Posterior radius quantiles for matching solute scalar variance by sector.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+<strong>Relevant Publications:</strong>
+<ul>
+<li>Borggaard, Jeff, Nathan E. Glatt-Holtz, and Justin Krometis. “A Statistical Framework for Domain Shape Estimation in Stokes Flows.” Inverse Problems 39, no. 8 (June 2023): 085009. <a href="https://doi.org/10.1088/1361-6420/acdd8e">https://doi.org/10.1088/1361-6420/acdd8e</a>.</li>
+</ul>

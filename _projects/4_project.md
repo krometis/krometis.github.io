@@ -1,80 +1,33 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Integrated Test & Evaluation
+description: Applying advanced statistical techniques to make DoD test & evaluation more efficient
+img: /assets/img/binary_lcb.png
+importance: 4
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Test and evaluation (T&E) is a critical component of the Department of Defense's (DoD's) process for acquiring new systems because it provides essential assessment of the system's capabilities or deficiencies to help guide decision-making. However, the DoD faces unique challenges in designing and implementing quality tests due to the complexity of the systems and the difficulty and cost associated with approximating operational environments. While testing occurs as a system is being developed, estimation of operational behavior has traditionally been based on testing that occurs once a system has reached a near-final state.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The goal of this work has been to develop and apply advanced statistical techniques -- Bayesian inference and design of experiments in particular -- for integrating information from multiple phases of test, helping the DoD to more rapidly acquire and field new and effective capabilities.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/stryker_compare.png' | relative_url }}" alt="" title="bayesian methods comparison"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/binary_lcb.png' | relative_url }}" alt="" title="binary lower credible bound"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/binary_pr_predict_area.png' | relative_url }}" alt="" title="binary prior predictive"/>
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+   Left: A comparison of Bayesian posterior estimates for various approaches to integrated test information. Middle: Lower credible bounds from Bayesian posteriors for binary test results, by number of tests and number of failures. Right: A summary of Bayesian prior predictive distribution for binary test results.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+<strong>Relevant Publications:</strong>
+<ul>
+<li>Krometis, Justin, Kyle Provost, Corinne Stafford, Victoria Sieck, and Laura Freeman. “A Comparison of Bayesian Methods for Integrating Information from Developmental and Operational Test and Evaluation.” Military Operations Research Journal (accepted, in press).</li>
+<li>Sieck, Victoria R.C., Justin A. Krometis, and Steven Thorsen. “A Framework for Using Priors in a Continuum of Testing.” Military Operations Research 29, no. 3 (2024). <a href="https://doi.org/10.5711/1082598329319">https://doi.org/10.5711/1082598329319</a>.</li>
+<li>Risher, Kyle, Daniel Wolodkin, Justin Krometis, Victoria Sieck, Laura Freeman, Jeremy Werner, and Sandra Hobson. “Maximizing the Use of Data to Make Winning Decisions in the Face of Finite Resources.” Naval Engineers Journal 136, no. 1–2 (Spring 2024): 111–20.</li>
+</ul>

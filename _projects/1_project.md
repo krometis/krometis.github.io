@@ -1,81 +1,27 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Historical Earthquake Estimation
+description: Estimation of pre-instrumental earthquakes from anecdotal accounts
+img: /assets/img/jgr_overview3.png
 importance: 1
-category: work
-related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Most understanding of seismic history is based on instrumental data collected since the mid-1900s. The goal of this project -- a collaboration with colleagues at Brigham Young University and Tulane University -- is to leverage textual records of tsunamis to estimate earthquakes from teh pre-instrumental era. Because the records are inherently uncertain -- ``human seismometers'' -- it is a natural setting for statistical inversion. The project was made possible via the help of a huge number of students working on components from both the geological and computational perspectives.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-5 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/jgr_overview3.png' | relative_url }}" alt="" title="example image"/>
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-7 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/jgr_posterior.png' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Left: The geological setting for the 1852 earthquake and tsunami in the Banda Arc of Indonesia. Right: The prior and posterior distributions on latitude/longitude.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+<strong>Relevant Publications:</strong>
+<ul>
+<li>Paskett, Taylor, Jared P Whitehead, Ron A Harris, Claire Ashcraft, Justin A Krometis, Isaac Sorensen, and Raelynn Wonnacott. “A Tale of Two Faults: Statistical Reconstruction of the 1820 Flores Sea Earthquake Using Tsunami Observations Alone.” Geophysical Journal International, February 2, 2024, ggae044. <a href="https://doi.org/10.1093/gji/ggae044">https://doi.org/10.1093/gji/ggae044</a>.</li>
+<li>Ringer, Hayden, Jared P Whitehead, Justin Krometis, Ronald A Harris, Nathan Glatt-Holtz, Spencer Giddens, Claire Ashcraft, et al. “Methodological Reconstruction of Historical Seismic Events from Anecdotal Accounts of Destructive Tsunamis: A Case Study for the Great 1852 Banda Arc Mega-Thrust Earthquake and Tsunami.” Journal of Geophysical Research, 2021. <a href="https://doi.org/10.1029/2020JB021107">https://doi.org/10.1029/2020JB021107</a>.</li>
+</ul>

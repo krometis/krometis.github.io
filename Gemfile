@@ -2,6 +2,13 @@ source 'https://rubygems.org'
 
 gem 'jekyll'
 
+# al_folio_core's Sass (main.scss) uses the @use module system and sass:color's
+# color.channel(). The default resolution (jekyll-sass-converter 2.x, LibSass/sassc)
+# silently no-ops @use instead of erroring, so main.css ships with none of the
+# theme's actual rules -- navbar, footer, publications, layout, etc. all missing.
+# Pin to the Dart Sass (sass-embedded) line, which requires Ruby >= 3.1.
+gem 'jekyll-sass-converter', '~> 3.1'
+
 # Core plugins that directly affect site building
 group :jekyll_plugins do
     gem 'jekyll-3rd-party-libraries'
